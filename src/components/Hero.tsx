@@ -61,7 +61,6 @@ const Hero = () => {
               <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto rounded-full overflow-hidden border-4 border-amber-200 shadow-lg">
                 <img
                   src="/src/assets/Images/profile.jpg"
-                  alt="Kaiz Nitullano"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
